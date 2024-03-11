@@ -1,0 +1,18 @@
+.header {
+  nav {
+    padding: 24px;
+  }
+  &__logo {
+    img {
+    }
+  }
+
+  &__menu {
+  }
+
+  &__links {
+    a {
+      font-size: $fs-sm;
+    }
+  }
+}

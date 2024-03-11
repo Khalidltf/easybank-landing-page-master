@@ -13,8 +13,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Public Sans", sans-serif;
-  font-size: $fs-md;
-  color: $neutralGrayishBlue;
+  font-size: 1.125rem;
   line-height: 1;
 }
 
@@ -22,27 +21,33 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: $neutralGrayishBlue;
 }
 
 .flex {
   display: flex;
-  &-jc-sb {
-    justify-content: space-between;
-  }
-  &-jc-c {
-    justify-content: center;
-  }
-  &-ai-c {
-    align-items: center;
-  }
+}
+.flex-jc-sb {
+  justify-content: space-between;
+}
+.flex-jc-c {
+  justify-content: center;
+}
+.flex-ai-c {
+  align-items: center;
 }
 
-// footer
 .attribution {
   font-size: 11px;
   text-align: center;
 }
+
 .attribution a {
-  // color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
+
+.header nav {
+  padding: 24px;
+}
+.header__links a {
+  font-size: 0.875rem;
+} /*# sourceMappingURL=style.css.map */
