@@ -12,7 +12,12 @@
 
   &__links {
     a {
-      font-size: $fs-sm;
+      font-size: var(--fs-sm);
     }
+  }
+
+  &__cta {
+    font-size: var(--fs-sm);
+    color: var(--neutralWhite);
   }
 }

@@ -13,8 +13,8 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Public Sans", sans-serif;
-  font-size: $fs-md;
-  color: $neutralGrayishBlue;
+  font-size: var(--fs-sm);
+  color: var(--neutralGrayishBlue);
   line-height: 1;
 }
 
@@ -22,7 +22,6 @@ a,
 a:visited,
 a:hover {
   text-decoration: none;
-  color: $neutralGrayishBlue;
 }
 
 .flex {
@@ -36,6 +35,22 @@ a:hover {
   &-ai-c {
     align-items: center;
   }
+}
+
+// buttons
+button,
+.button {
+  cursor: pointer;
+  padding: 1rem 1.875rem;
+  border: 0;
+  border-radius: 50px;
+  color: var(--neutralWhite);
+  background: linear-gradient(
+    to right,
+    var(--primaryLimeGreen),
+    var(--primaryBrightCyan)
+  );
+  font-weight: 400;
 }
 
 // footer
